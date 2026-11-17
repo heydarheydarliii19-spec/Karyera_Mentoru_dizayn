@@ -1,4 +1,4 @@
-# Karyera Mentoru — Claude üçün təlimat
+# Karyera Mentoru
 
 ## Layihə haqqında
 "Karyera Mentoru" — gənclərə və karyerasını dəyişmək istəyənlərə peşə seçimi,
