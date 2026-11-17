@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Karyera Mentoru — peşə seçimi, CV hazırlığı və müsahibəyə hazırlıq üzrə fərdi mentorluq.">
+  <title>Karyera Mentoru</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="#" class="logo">
+        <img src="assets/logo.svg" alt="Karyera Mentoru loqosu" width="40" height="40">
+        <span>Karyera Mentoru</span>
+      </a>
+      <button class="menu-toggle" aria-label="Menyunu aç" aria-expanded="false" aria-controls="main-nav">
+        <span></span><span></span><span></span>
+      </button>
+      <nav id="main-nav" class="main-nav">
+        <a href="#xidmetler">Xidmətlər</a>
+        <a href="#nece-isleyir">Necə işləyir</a>
+        <a href="#reyler">Rəylər</a>
+        <a href="#elaqe" class="btn btn-small">Əlaqə</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-text">
+          <span class="badge">Fərdi mentorluq</span>
+          <h1>Karyeranı <span class="highlight">özün qur</span>, biz yol göstərək</h1>
+          <p>Peşə seçimi, CV hazırlığı və müsahibəyə hazırlıq — təcrübəli mentorlarla addım-addım.</p>
+          <div class="hero-actions">
+            <a href="#elaqe" class="btn">Pulsuz konsultasiya</a>
+            <a href="#xidmetler" class="btn btn-outline">Xidmətlərə bax</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="xidmetler" class="section">
+      <div class="container">
+        <h2 class="section-title">Xidmətlər</h2>
+        <div class="card-list">
+          <article class="card">
+            <h3>Peşə seçimi</h3>
+            <p>Maraqlarını və bacarıqlarını analiz edib sənə uyğun sahələri birlikdə müəyyən edirik.</p>
+          </article>
+          <article class="card">
+            <h3>CV və LinkedIn</h3>
+            <p>İşəgötürənlərin diqqətini çəkən CV və güclü LinkedIn profili hazırlayırıq.</p>
+          </article>
+          <article class="card">
+            <h3>Müsahibəyə hazırlıq</h3>
+            <p>Real müsahibə simulyasiyaları və ətraflı geri bildirimlə özünə inam qazan.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="nece-isleyir" class="section section-soft">
+      <div class="container">
+        <h2 class="section-title">Necə işləyir?</h2>
+        <ol class="steps">
+          <li><strong>Müraciət et</strong><span>Formu doldur, məqsədini qısaca yaz.</span></li>
+          <li><strong>Tanışlıq görüşü</strong><span>30 dəqiqəlik pulsuz onlayn görüş.</span></li>
+          <li><strong>Fərdi plan</strong><span>Sənə uyğun addım-addım inkişaf planı.</span></li>
+          <li><strong>Nəticə</strong><span>Yeni iş, yeni sahə, yeni imkanlar.</span></li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="reyler" class="section">
+      <div class="container">
+        <h2 class="section-title">Rəylər</h2>
+        <div class="card-list">
+          <blockquote class="card quote">
+            <p>“Müsahibə məşqlərindən sonra ilk təklifimi iki həftəyə aldım.”</p>
+            <cite>— Aysel, Data analitik</cite>
+          </blockquote>
+          <blockquote class="card quote">
+            <p>“Hansı sahəni seçəcəyimi bilmirdim, indi aydın planım var.”</p>
+            <cite>— Murad, Tələbə</cite>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <section id="elaqe" class="section section-soft">
+      <div class="container contact">
+        <h2 class="section-title">Əlaqə</h2>
+        <form class="contact-form" novalidate>
+          <label for="ad">Adın</label>
+          <input id="ad" name="ad" type="text" required>
+
+          <label for="email">E-poçt</label>
+          <input id="email" name="email" type="email" required>
+
+          <label for="mesaj">Məqsədin</label>
+          <textarea id="mesaj" name="mesaj" rows="4" required></textarea>
+
+          <button type="submit" class="btn">Göndər</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="il"></span> Karyera Mentoru. Bütün hüquqlar qorunur.</p>
+    </div>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
